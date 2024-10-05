@@ -1,0 +1,26 @@
+{
+  "name": "gradeManageSystemWeb",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@solid-primitives/refs": "^1.0.8",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.4",
+    "install": "^0.13.0",
+    "solid-js": "^1.8.22"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.1",
+    "@rsbuild/plugin-babel": "^1.0.1",
+    "@rsbuild/plugin-solid": "^1.0.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.2"
+  }
+}

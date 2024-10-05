@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* 自定义样式 */
+.chart-container {
+  @apply rounded-lg shadow bg-white p-4;
+}
+
+.analysis-card {
+  @apply bg-white rounded-lg shadow p-4;
+}
+
+.stat-value {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.stat-label {
+  @apply text-sm text-gray-500;
+}
